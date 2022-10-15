@@ -9,6 +9,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	putchar(i + '0');
+	putchar(i + '0' '\n');
 return (0);
 }
